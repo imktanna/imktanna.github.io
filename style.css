@@ -7,17 +7,20 @@ body
     background-size: cover;
     background-position: center;
 }
-.top-bar{   
+.top-bar
+{   
     width: 75%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.left{
+.left
+{
     transform: translateX(150px);
 }
-.left img{
+.left img
+{
     margin-top: 7%;
     width: 20px;
     height: 20px;
@@ -63,8 +66,8 @@ body
     padding-bottom: 6px;
     transition: all 0.3s ease-in;
 }
-.logo img{
-
+.logo img
+{
     height: 200px;
     width: 200px;
 }
