@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Hipster Tripstersare</title>
+<link href="style5.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="top-bar">
+            <div class="left">
+                <img src="instagram.png" alt="">
+                <img src="facebook.png" alt="">
+            </div>
+            <div class="right">
+                Contact: 1923891
+            </div>
+        </div>        
+        <div class="row">
+            <div class="main-nav">
+                <ul>
+                    <li><a href="index.html"> Home </a> </li>
+                    <li><a href="vacation.html"> Vacation Destinations </a> </li>
+                    <li><a href="trek.html"> Trek Essential  </a> </li>
+                    </ul>
+            </div>
+            <div class="logo">
+                    <img src="logos.png" alt="">
+            </div>
+            <div class="main-nav2">
+                <ul>
+                    <li class="active"><a href="booking.html"> Bookings </a> </li>
+                    <li><a href="gallery.html"> Gallery </a> </li>
+                    <li><a href="login.html"> Login </a> </li> 
+                    
+                </ul>
+            </div>
+        </div> 
+    </div>   
+        
+        <div class="form">
+            <form onsubmit="validate()">
+            <table class="form-table">          
+                <tr class="form-heading">
+                    <td colspan="4">Trek Booking</td>         
+                </tr>
+                <tr class="booking-con">
+                    <td>Trek Selected</td>
+                    <td><select name="Trek">
+                        <option value="roopkund">Roopkund</option>
+                        <option value="vof">Valley of Flowers</option>
+                        <option value="pangarchulla">Pangarchulla</option>
+                        <option value="chadar">Chadar</option>
+                      </select></td>
+                      <td>Select Date</td>
+                      <td><input type="date" name="date"></td>
+                </tr>
+            </table>
+            <table class="form-table2">
+                <tr class="form-heading2">
+                    <td>Personal Details</td>        
+                </tr>
+                <tr class="booking-con2">
+                    <td>First Name</td>
+                    <td><input type="text" name="firstname" required placeholder="First Name*"></td>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lastname" required placeholder="Last Name*"></td>
+                </tr>
+                <tr class="booking-con2">
+                    <td>Contact No.</td>
+                    <td><input type="number" name="contact" required placeholder="Contact No.*"></td>
+                    <td>Email</td>
+                    <td><input type="email" name="email" required placeholder="Email Id*"></td>                   
+                </tr>
+                <tr class="booking-con2">
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" required>Male <br><input type="radio" name="gender" required>Female</td>
+                    <td>Emergancy Contact</td>
+                    <td><input type="number" name="contact" required placeholder="Emergency Contact*"></td>
+                </tr>
+                <tr class="booking-con2">
+                        <td>DOB</td>
+                        <td><input type="date" name="dob" placeholder="Date of Birth" required></td>
+                        <td>Enter Weight(In kg.)</td>
+                        <td><input type="text" name="weight" placeholder="Enter Weight*" required></td>
+                </tr>
+                <tr class="booking-con2">
+                    <td >Enter Height (In Cm)</td>
+                    <td><input type="text" name="height" placeholder="Enter Height*" required></td>
+                </tr>
+            </table> 
+            <table class="form-table2">          
+                    <tr class="form-heading2">
+                        <td>Address Details</td>         
+                    </tr>
+                    <tr class="booking-con">
+                        <td>Country</td>
+                        <td><input type="text" name="add_country" placeholder="Country" required> </td>
+                        <td>State</td>
+                        <td><input type="text" name="add_state" placeholder="State" required> </td>
+                        <td>City</td>
+                        <td><input type="text" name="add_city" placeholder="City" required> </td>
+                    </tr>
+                </table>  
+                <table class="form-table2">          
+                        <tr class="form-heading2">
+                            <td>Trekker List</td>         
+                        </tr>
+                        <tr class="booking-con">
+                            <td>Number of Trekkers Joining You</td>
+                            <td><input type="number" name="trekker_number" placeholder="Number of Trekker" required> </td>
+                        </tr>
+                </table> 
+                <table class="form_table2">
+                    <tr>
+                        <td>
+                                Terms and Condition  <br>
+                                <input type="checkbox" name="T&C" > I agree all  Terms and Condition<br>
+                                <input type="checkbox" name="inc" >  I opt for Insurance<br>
+                        </td>
+                    </tr>
+                </table> 
+                <input type="submit" value="Book Now! :-)" class="submit1">
+            </form>
+            
+        </div>    
+</body>        
+</html>

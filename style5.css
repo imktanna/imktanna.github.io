@@ -1,0 +1,169 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("booking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-bar
+{   
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left
+{
+    transform: translateX(150px);
+}
+.left img
+{
+    margin-top: 7%;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.row
+{
+    max-width: 1200px;
+    height:100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.row li
+{
+    display: inline-block;
+}
+
+.row li a
+{
+    color: beige;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: "Roboto" sans-serif;
+    font-size: 20px;
+}
+
+.row li.active a
+{
+    border: 1px solid beige;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;    
+}
+.row li a:hover
+{
+    border: 1px solid beige;
+    padding: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: all 0.3s ease-in;
+}
+.logo img
+{
+    height: 200px;
+    width: 200px;
+}
+.form
+{
+    width: 100%;
+}
+footer
+{
+    padding: 2%;
+    background-color:grey;
+    color: lightcyan;
+}
+.form-table
+{
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 22%;
+}
+.form tr
+{
+    margin: 10px;
+    border-radius: 10px;
+}
+.form-heading td{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;    
+}
+.form-heading
+{
+    background-color: brown;
+    text-align: center;
+    
+}
+.booking-con td
+{
+    width: 30%;
+    padding: 10px;
+}
+.booking-con
+{
+    display: block;
+    background: rgba(235, 221, 221, 0.651);
+    border: 2px solid gray;
+}
+.form-table2
+{
+    width: 80%;
+    padding-top: 0.5%;
+    padding-left: 22%;
+}
+.form-heading2
+{
+    background-color: brown;
+    text-align: left;
+    
+}
+.form-heading2 td
+{
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.booking-con2 td
+{
+    width: 32%;
+    text-align: left;
+    padding: 10px;
+}
+.booking-con2
+{
+    display: block;
+    background: rgba(235, 221, 221, 0.651);
+    border: 2px solid gray;
+}
+.form-table2 tr{
+    border-collapse: collapse;
+
+}
+.form_table2 
+{
+    color: white;
+    margin-left: 22%;
+    font-size: 20px; 
+}
+.submit1
+{
+    background: brown;
+    color: white;
+    margin-left: 70%;
+    padding: 15px;
+}
+
